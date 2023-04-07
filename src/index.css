@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #fdfdfd;
+  background-color: #f7f5f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,6 +19,7 @@
 a {
   font-weight: 500;
   color: #25d181;
+  font-size: 14px;
   text-decoration: inherit;
 }
 a:hover {
@@ -54,7 +55,7 @@ button:hover {
 }
 button:focus,
 button:focus-visible {
-  outline: 1px auto -webkit-focus-ring-color;
+  outline: 0px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
